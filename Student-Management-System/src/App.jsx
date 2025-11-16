@@ -1,11 +1,18 @@
+import { Routes,Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
+import Register from './components/pages/Register'
+import Delete from './components/pages/Delete'
+import Update from './components/pages/Update'
 
 function App() {
 
   return (
     <>
-    <Header/>
+    <Routes>
+      <Route path='register' element={<Register/>}/>
+      <Route path='update' element={<Update />}/>
+      <Route path='delete' element={<Delete />}/>
+    </Routes>
     </>
   )
 }

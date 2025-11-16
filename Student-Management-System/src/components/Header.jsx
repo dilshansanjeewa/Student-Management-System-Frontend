@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header(){
     return(
         <>
@@ -7,11 +9,10 @@ export default function Header(){
                     <span className="fs-4">Student Management System</span> 
                 </a> 
                 <ul className="nav nav-pills"> 
-                    {/* <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">HOME</a></li>  */}
-                    <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">REGISTER</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">VIEW</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">UPDATE</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">Delete</a></li> 
+                    <li className="nav-item"> <Link to='/Register' className="nav-link active" aria-current="page">REGISTER</Link></li> 
+                    <li className="nav-item"><Link to='/' href="#" className="nav-link">VIEW</Link></li> 
+                    <li className="nav-item"><Link to='/Update' href="#" className="nav-link">UPDATE</Link></li> 
+                    <li className="nav-item"><Link to='/Delete' href="#" className="nav-link">Delete</Link></li> 
                 </ul> 
             </header> 
             </div>
