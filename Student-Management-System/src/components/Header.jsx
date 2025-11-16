@@ -7,10 +7,10 @@ export default function Header(){
                     <span className="fs-4">Student Management System</span> 
                 </a> 
                 <ul className="nav nav-pills"> 
-                    <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">HOME</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">Add</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">View</a></li> 
-                    <li className="nav-item"><a href="#" className="nav-link">Srarch</a></li> 
+                    {/* <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">HOME</a></li>  */}
+                    <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">REGISTER</a></li> 
+                    <li className="nav-item"><a href="#" className="nav-link">VIEW</a></li> 
+                    <li className="nav-item"><a href="#" className="nav-link">UPDATE</a></li> 
                     <li className="nav-item"><a href="#" className="nav-link">Delete</a></li> 
                 </ul> 
             </header> 
